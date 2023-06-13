@@ -5,17 +5,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>賽馬會「與耆同絡」平板電腦及線上支援長者計劃 點名系統</title>
+    <title>簡易點名系統</title>
     <meta name="theme-color" content="3B4252" />
     <style>
         h1 {
             /* 標題顏色 */
-            color: var(--black)
+            color: var(--nord7)
         }
 
         body {
             /* 背景顏色 */
-            background-color: var(--nord10)
+            background-color: var(--nord0)
         }
 
         body {
@@ -47,12 +47,12 @@
 
         .call button,
         button:hover {
-            background-color: var(--nord8)
+            background-color: var(--nord2)
         }
 
         button,
         section>div {
-            background-color: var(--nord4);
+            background-color: var(--nord1);
             box-shadow: rgba(0, 0, 0, .2) 0 0 .5rem
         }
 
@@ -86,7 +86,7 @@
             margin: 0;
             box-sizing: border-box;
             font-family: Arial, "微軟正黑體", Helvetica, sans-serif;
-            color: var(--black)
+            color: var(--nord6)
         }
 
         body,
@@ -228,8 +228,8 @@
 
 <body>
     <main>
-        <h1>賽馬會「與耆同絡」平板電腦及線上支援長者計劃</h1>
-        <h2 id="status">點名系統</h2>
+        <h1>簡易點名系統</h1>
+        <h2 id="status">歡迎使用</h2>
         <nav>
             <button onclick="searchA()">查詢紀錄</button><button onclick="callA()">點名</button><button
                 onclick="addA()">新增學生</button>
@@ -238,7 +238,6 @@
             <div id="history">
                 <div class="search">
                     <input type="text"><button>搜尋</button>
-
                 </div>
                 <table>
                     <thead>
@@ -258,7 +257,8 @@
                 <div class="search"><input type="text"><button>新增</button></div>
             </div>
         </section>
-       
+        <footer><a href="edit-mr.github.io/">毛哥EM</a>製作 | <a href="https://em-tec.github.io/post/roll-call">教學</a>
+        </footer>
     </main>
     <script>
         //部屬連結放這裡
